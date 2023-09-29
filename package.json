@@ -1,0 +1,21 @@
+{
+    "name": "@mirg/data-structures",
+    "version": "0.0.1",
+    "description": "custom data structures",
+    "main": "index.js",
+    "author": "Oleksii Rohochyi",
+    "license": "ISC",
+    "keywords": ["data structures", "data", "linked lists"],
+    "scripts": {
+        "test": "jest -c=jest.config.cjs --no-cache",
+        "test-isolated": "jest -c=jest-isolated.config.cjs --no-cache",
+        "test-esm": "node --experimental-vm-modules --no-warnings node_modules/jest/bin/jest.js -c=jest-esm.config.mjs --no-cache",
+        "test-esm-isolated": "node --experimental-vm-modules --no-warnings node_modules/jest/bin/jest.js -c=jest-esm-isolated.config.mjs --no-cache"
+      },
+    "devDependencies": {
+        "jest": "^29.5.0",
+        "ts-jest": "^29.1.0",
+        "typescript": "~5.1.3"
+    }
+  }
+  
