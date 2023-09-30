@@ -1,6 +1,6 @@
 {
     "name": "my-data-structures",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "description": "My implementation of custom data structures. Linked lists",
     "main": "./lib/cjs/index.js",
     "module": "./lib/esm/index.js",
