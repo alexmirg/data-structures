@@ -1,10 +1,12 @@
 {
     "name": "my-data-structures",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "My implementation of custom data structures. Linked lists",
     "main": "./lib/cjs/index.js",
     "module": "./lib/esm/index.js",
-    "files": ["lib/"],
+    "files": [
+        "lib/"
+    ],
     "author": "Oleksii Rohochyi",
     "license": "ISC",
     "keywords": [
