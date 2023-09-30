@@ -1,23 +1,26 @@
 {
     "name": "my-data-structures",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "My implementation of custom data structures. Linked lists",
     "main": "index.js",
     "author": "Oleksii Rohochyi",
     "license": "ISC",
-    "keywords": ["data structures", "data", "linked lists"],
+    "keywords": [
+        "data structures",
+        "data",
+        "linked lists"
+    ],
     "type": "module",
     "scripts": {
         "test": "jest -c=jest.config.cjs --no-cache",
         "test-isolated": "jest -c=jest-isolated.config.cjs --no-cache",
         "test-esm": "node --experimental-vm-modules --no-warnings node_modules/jest/bin/jest.js -c=jest-esm.config.mjs --no-cache",
         "test-esm-isolated": "node --experimental-vm-modules --no-warnings node_modules/jest/bin/jest.js -c=jest-esm-isolated.config.mjs --no-cache"
-      },
+    },
     "devDependencies": {
         "jest": "^29.5.0",
         "ts-jest": "^29.1.0",
         "typescript": "~5.1.3"
     },
     "homepage": "https://github.com/alexmirg/data-structures#readme"
-  }
-  
+}
