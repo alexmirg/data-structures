@@ -1,7 +1,16 @@
 {
   "compilerOptions": {
-    "module": "CommonJS",
-    "target": "ES2021"
+    "target": "ES2015",
+    "module": "ES2020",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./lib/esm",
+    "declaration": true,
+    "moduleResolution": "node"
   },
-  "files": ["globals.d.ts"]
+  "files": ["globals.d.ts"],
+  "include": [
+    "./src"
+  ]
 }

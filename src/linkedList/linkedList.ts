@@ -55,7 +55,9 @@ export default class LinkedList {
             }
 
             node.next = current;
-            previous.next = node;
+            if (previous) {
+                previous.next = node;
+            }
         }
 
         this.#length++;
@@ -84,8 +86,9 @@ export default class LinkedList {
                 previous = current;
                 current = current?.next || null;
             }
-
-            previous.next = current?.next || null;
+            if (previous) {
+                previous.next = current?.next || null;
+            }
         }
 
         this.#length--;
