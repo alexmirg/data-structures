@@ -31,6 +31,7 @@ export default class Stack {
 
     /**
      * check is the stack empty or not
+     * @return true/false
      */
     isEmpty(): boolean {
         return this.size() === 0;

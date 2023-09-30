@@ -69,9 +69,6 @@ describe('stack: isEmpty', () => {
 });
 
 describe('stack: size', () => {
-    const stack = new Stack();
-    stack.push('c');
-  
     test('not empty', () => {
         const stack = new Stack();
         stack.push('c');
