@@ -13,8 +13,8 @@ export default class Stack {
     /**
      * remove the last element
      */
-    pop(): any {
-        return this.#items.pop();
+    pop(): any | null {
+        return this.#items.pop() || null;
     }
 
     /**
@@ -38,7 +38,7 @@ export default class Stack {
     }
 
     /**
-     * to get the stack size (length)
+     * get the stack size (length)
      */
     size(): number {
         return this.#items.length;
