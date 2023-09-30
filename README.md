@@ -48,3 +48,44 @@ A various collection of data structures, including **linked lists, stacks, queue
 ```
 
  Consult the documentation for details.
+
+### Documentation
+
+#### Stack
+
+Representing a stack data structure.
+
+| property/method         | params                        | return              | description |
+| --------                | --------                      | --------            | -------- |
+| .push(element)          | element: any                  | undefined           | add an element to the end of the stack   |
+| .pop()                  |                               | element: any / null | remove the last element   |
+| .peek()                 |                               | element: any / null | get the last element   |
+| .isEmpty()              |                               | boolean             | check is the stack empty or not   |
+| .size()                 |                               | number              | get the stack size (length)   |
+| .clear()                |                               | undefined           | remove all stack items   |
+
+#### Queue
+
+The simple queue data structure.
+
+| property/method         | params                        | return              | description |
+| --------                | --------                      | --------            | -------- |
+| .enqueue(element)       | element: any                  | undefined           | add an element to the queue   |
+| .dequeue()              |                               | element: any / null | remove the element from the queue   |
+| .front()                |                               | element: any / null | get the first queue element   |
+| .isEmpty()              |                               | boolean             | check is the queue emptynot   |
+| .size()                 |                               | number              | get the queue length   |
+| .clear()                |                               | undefined           | remove all queue items   |
+
+#### Linked List
+
+Linked list data structure.
+
+| property/method         | params                        | return           | description |
+| --------                | --------                      | --------         | -------- |
+| .append(data)           | data: any                     | undefined        | add an element to the end of the linked list   |
+| .insert(position, data) | position: number, data: any   | boolean          | insert an element to the specified position in the linked list   |
+| .remove(data)           | data: any                     | data: any / null | remove an element from the list   |
+| .removeAt(position)     | position: number              | data: any / null | remove an element by the position   |
+| .indexOf(data)          | data: any                     | index: number    | to find the element index   |
+| .toArray()              |                               | array            | to convert linked list to an array   |
