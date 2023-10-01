@@ -89,3 +89,15 @@ Linked list data structure.
 | .removeAt(position)     | position: number              | data: any / null | remove an element by the position   |
 | .indexOf(data)          | data: any                     | index: number    | to find the element index   |
 | .toArray()              |                               | array            | to convert linked list to an array   |
+
+#### Doubly Linked List
+
+Doubly Linked list data structure.
+
+| property/method         | params                        | return           | description |
+| --------                | --------                      | --------         | -------- |
+| .insert(position, data) | position: number, data: any   | boolean          | insert an element to the specified position   |
+| .remove(data)           | data: any                     | data: any / null | remove an element from the list   |
+| .removeAt(position)     | position: number              | data: any / null | remove an element by the position   |
+| .indexOf(data)          | data: any                     | index: number    | to find the element index   |
+| .toArray()              |                               | array            | to convert doubly linked list to an array   |
