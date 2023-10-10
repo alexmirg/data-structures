@@ -101,3 +101,14 @@ Doubly Linked list data structure.
 | .removeAt(position)     | position: number              | data: any / null | remove an element by the position   |
 | .indexOf(data)          | data: any                     | index: number    | to find the element index   |
 | .toArray()              |                               | array            | to convert doubly linked list to an array   |
+
+#### Extended set
+
+Custom set data structure with extra methods.
+
+| property/method         | params                        | return           | description |
+| --------                | --------                      | --------         | -------- |
+| .union(otherSet)        | otherSet: any                 | Set: any         | Given two sets, this returns a new set with elements from both the given sets   |
+| .intersection(otherSet) | otherSet: any                 | Set: any         | Given two sets, this returns a new set with the elements that exist in both sets   |
+| .difference(otherSet)   | otherSet: any                 | Set: any         | Given two sets, this returns a new set with all the elements that exist in the first set and do not exist in the second set   |
+| .subset(otherSet)       | otherSet: any                 | boolean          | This confirms whether a given set is a subset of another set   |
